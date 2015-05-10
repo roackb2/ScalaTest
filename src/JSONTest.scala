@@ -60,4 +60,27 @@ object JSONTest extends App{
             "fourth" -> JSONDate(Calendar.getInstance.getTime)))
     println(obj.toString())
 
+    // result of this program:
+    /*
+        {
+            first: hi,
+            second: [
+                3.0,
+                hello
+            ],
+            third: {
+                one: 8.0,
+                two: [
+                    hi,
+                    3.0,
+                    {
+                        1: yo,
+                        2: ya
+                    }
+                ]
+            },
+            fourth: Mon May 11 00:16:36 CST 2015
+        }
+    */
 }
+
