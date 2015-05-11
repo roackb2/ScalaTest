@@ -10,20 +10,19 @@ object JSONTest extends App{
     abstract class JSON {
         override  def toString(): String = stringify(this, 0)
         def stringify(obj: JSON, depth: Int): String = {
-            val indent = "    "
-            var prefix: String = ""
-            for(i <- 0 to depth - 1) prefix = prefix + indent
+            val indent = "\t"
+            val prefix = if (depth != 0) (0 to depth - 1).map((x) => indent).reduce((former, element) => former + element) else ""
             obj match {
                 case JSONObject(content) =>
-                    val results: List[String] = content.keys.zipWithIndex.toList.map{case (key, i) =>
-                        indent + prefix + key + ": " + stringify(content.getOrElse(key, JSONNumber(0)), depth + 1) + (if(i < content.keys.size - 1) ",\n" else "\n")
-                    }
-                    results.foldLeft("{\n")((former, element) => former + element) + prefix + "}"
+                    content.keys.zipWithIndex.toList.map{case (key, i) =>
+                        indent + prefix + key + ": " + stringify(content.getOrElse(key, JSONNumber(0)), depth + 1) +
+                            (if(i < content.keys.size - 1) ",\n" else "\n")
+                    }.foldLeft("{\n")((former, element) => former + element) + prefix + "}"
                 case JSONArray(array) =>
-                    val results = array.zipWithIndex.map{ case(element, i) =>
-                        indent + prefix + stringify(element, depth + 1) + (if(i < array.size - 1)  ",\n" else  "\n")
-                    }
-                    results.foldLeft("[\n")((former, element) => former + element) + prefix + "]"
+                    array.zipWithIndex.map{ case(element, i) =>
+                        indent + prefix + stringify(element, depth + 1) +
+                            (if(i < array.size - 1)  ",\n" else  "\n")
+                    }.foldLeft("[\n")((former, element) => former + element) + prefix + "]"
                 case JSONNumber(value) => "" + value
                 case JSONString(value) => value
                 case JSONDate(value) => "" + value
