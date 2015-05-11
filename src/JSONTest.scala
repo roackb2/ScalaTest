@@ -14,20 +14,16 @@ object JSONTest extends App{
             var prefix: String = ""
             for(i <- 0 to depth - 1) prefix = prefix + indent
             obj match {
-                case JSONObject(content) => {
-                    var result = "{\n"
-                    content.keys.zipWithIndex.foreach{case (key, i) =>  {
-                        result = result + indent + prefix + key + ": " + stringify(content.getOrElse(key, JSONNumber(0)), depth + 1) + (if(i < content.keys.size - 1) ",\n" else "\n")
-                    }}
-                    result + prefix + "}"
-                }
-                case JSONArray(array) => {
-                    var result = "[\n"
-                    array.zipWithIndex.foreach{ case(element, i) => {
-                        result = result + indent + prefix + stringify(element, depth + 1) + (if(i < array.size - 1)  ",\n" else  "\n")
-                    }}
-                    result + prefix +  "]"
-                }
+                case JSONObject(content) =>
+                    val results: List[String] = content.keys.zipWithIndex.toList.map{case (key, i) =>
+                        indent + prefix + key + ": " + stringify(content.getOrElse(key, JSONNumber(0)), depth + 1) + (if(i < content.keys.size - 1) ",\n" else "\n")
+                    }
+                    results.foldLeft("{\n")((former, element) => former + element) + prefix + "}"
+                case JSONArray(array) =>
+                    val results = array.zipWithIndex.map{ case(element, i) =>
+                        indent + prefix + stringify(element, depth + 1) + (if(i < array.size - 1)  ",\n" else  "\n")
+                    }
+                    results.foldLeft("[\n")((former, element) => former + element) + prefix + "]"
                 case JSONNumber(value) => "" + value
                 case JSONString(value) => value
                 case JSONDate(value) => "" + value
