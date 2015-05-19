@@ -1,5 +1,6 @@
 [warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
 [warn]  * org.scala-lang.modules:scala-parser-combinators_2.11:(1.0.4, 1.0.3)
+[warn]  * com.typesafe.akka:akka-actor_2.11:(2.3.9, 2.3.11)
 [debug] :: resolving dependencies :: default#test$sources_javadoc_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -8,7 +9,7 @@
 [debug] == resolving dependencies for default#test$sources_javadoc_2.11;1.0 [compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a54ab85
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d51614a
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
@@ -17,7 +18,7 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39a69e6b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c0e38de
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.9
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.9 in sbt-chain
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->runtime]
@@ -25,7 +26,7 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@266b950b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16c174d
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
@@ -33,7 +34,7 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@140f4d71
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@349f8f89
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -83,9 +84,6 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
@@ -99,9 +97,6 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
@@ -114,10 +109,6 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->compile]
@@ -126,6 +117,22 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->default(compile)]
+[info] Resolving com.typesafe.akka#akka-testkit_2.11;2.3.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d6ac963
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.3.11
+[debug] 	found com.typesafe.akka#akka-testkit_2.11;2.3.11 in sbt-chain
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->default(compile)]
+[info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4248f060
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.11
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.11 in sbt-chain
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#test$sources_javadoc_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -230,9 +237,10 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
@@ -246,9 +254,10 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
@@ -261,10 +270,6 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->compile]
@@ -273,16 +278,20 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->master]
 [debug] == resolving dependencies for default#test$sources_javadoc_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#test$sources_javadoc_2.11;1.0 [provided]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test-internal->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test-internal->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test-internal->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [test-internal->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->compile]
@@ -291,6 +300,14 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#test$sources_javadoc_2.11;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -360,6 +377,36 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.11!akka-actor_2.11.jar
+[debug] 		tried /Users/roackb2/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.3.11/docs/akka-actor_2.11-javadoc.jar
+[debug] 		tried /Users/roackb2/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.3.11/srcs/akka-actor_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.11!akka-actor_2.11.jar(doc) (12381ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.11!akka-actor_2.11.jar(src) (3095ms)
+[debug] 		tried /Users/roackb2/.ivy2/local/com.typesafe.akka/akka-testkit_2.11/2.3.11/srcs/akka-testkit_2.11-sources.jar
+[debug] 		tried /Users/roackb2/.ivy2/local/com.typesafe.akka/akka-testkit_2.11/2.3.11/docs/akka-testkit_2.11-javadoc.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.11!akka-testkit_2.11.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.11;2.3.11!akka-testkit_2.11.jar(src) (1965ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-javadoc.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-javadoc.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-javadoc.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-javadoc.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-javadoc.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.11;2.3.11!akka-testkit_2.11.jar(doc) (2940ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(doc)
@@ -370,7 +417,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
-[debug] :: resolution report :: resolve 239ms :: artifacts dl 51ms
+[debug] :: resolution report :: resolve 289ms :: artifacts dl 20447ms
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 compile produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-compile.xml
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 runtime produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-runtime.xml
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 test produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-test.xml
@@ -384,4 +431,4 @@
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 docs produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-docs.xml
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 pom produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-pom.xml
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 scala-tool produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (239ms resolve - 51ms download)
+[debug] 	resolve done (289ms resolve - 20447ms download)

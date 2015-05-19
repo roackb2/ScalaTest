@@ -5,7 +5,7 @@ object LazyTest extends App {
 
     def getRepositories(account: String): List[String] = {
         lazy val source = {
-            println("getting repositories...")
+            println("getting repositories for account " + account + " ...")
             scala.io.Source.fromURL("https://github.com/" + account).getLines().toList
         }
 
