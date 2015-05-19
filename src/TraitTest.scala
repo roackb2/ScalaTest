@@ -6,7 +6,7 @@ import scala.util.parsing.json.JSON
 /**
  * Created by roackb2 on 15/5/7.
  */
-object EmployeeTest extends App{
+object TraitTest extends App{
 
     class Language(name: String) {
         override def toString(): String = name
