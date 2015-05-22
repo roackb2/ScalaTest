@@ -1,6 +1,7 @@
 import akka.actor.{Props, ActorLogging, Actor, ActorSystem}
 import akka.actor.ActorDSL._
 import akka.pattern.ask
+import com.typesafe.config.ConfigFactory
 
 
 /**
@@ -13,7 +14,7 @@ object ActorTest extends App {
     case class Render(filePath: String)
     case class Error(msg: String)
 
-    val system = ActorSystem("server")
+    val system = ActorSystem("server", ConfigFactory.defaultReference)
     implicit val context = scala.concurrent.ExecutionContext.Implicits.global
 
     class Crawler extends Actor with ActorLogging {
@@ -52,4 +53,6 @@ object ActorTest extends App {
     val gitAccounts = List("ernie55ernie", "kabochya", "wanderer")
     gitAccounts.par.map(account => LazyTest.getRepositories(account)).zip(gitAccounts).foreach{
         case(repos, account) => println("repos of account " + account + ":\n" + repos.toIterator.mkString("\n") + "\n")}
+
+
 }

@@ -1,3 +1,5 @@
+import com.typesafe.config.ConfigFactory
+
 /**
  * Created by roackb2 on 15/5/11.
  */
@@ -24,5 +26,6 @@ object FuncTest extends App {
 
     val doubled = for(num <- list) yield num * 2
     println(doubled.sum)
+
 
 }

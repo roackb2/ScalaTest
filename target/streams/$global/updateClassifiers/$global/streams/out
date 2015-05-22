@@ -1,6 +1,5 @@
 [warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
 [warn]  * org.scala-lang.modules:scala-parser-combinators_2.11:(1.0.4, 1.0.3)
-[warn]  * com.typesafe.akka:akka-actor_2.11:(2.3.9, 2.3.11)
 [debug] :: resolving dependencies :: default#test$sources_javadoc_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -9,32 +8,64 @@
 [debug] == resolving dependencies for default#test$sources_javadoc_2.11;1.0 [compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d51614a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1564624e
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->default(compile)]
-[info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c0e38de
-[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.9
-[debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.9 in sbt-chain
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b401b4e
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.11
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.11 in sbt-chain
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16c174d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@798db2f8
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-remote_2.11;2.3.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57eb830a
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.11;2.3.11
+[debug] 	found com.typesafe.akka#akka-remote_2.11;2.3.11 in sbt-chain
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)]
+[info] Resolving io.netty#netty;3.8.0.Final ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39e9673a
+[debug] sbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final
+[debug] 	found io.netty#netty;3.8.0.Final in sbt-chain
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
+[info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@216e8205
+[debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0
+[debug] 	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
+[info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@393fb5cd
+[debug] sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
+[debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@349f8f89
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4487c9e3
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -47,14 +78,30 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -63,14 +110,30 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
@@ -83,11 +146,30 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -96,11 +178,30 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
@@ -109,30 +210,42 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->default(compile)]
 [info] Resolving com.typesafe.akka#akka-testkit_2.11;2.3.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d6ac963
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34792e81
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.3.11
 [debug] 	found com.typesafe.akka#akka-testkit_2.11;2.3.11 in sbt-chain
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->default(compile)]
-[info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4248f060
-[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.11
-[debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.11 in sbt-chain
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#test$sources_javadoc_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -144,14 +257,30 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -162,14 +291,30 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile-internal->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile-internal->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile-internal->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->compile]
@@ -182,14 +327,30 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -198,14 +359,30 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
@@ -215,14 +392,30 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime-internal->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime-internal->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime-internal->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->compile]
@@ -236,7 +429,6 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->compile]
@@ -245,6 +437,22 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -253,7 +461,6 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.9 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [runtime->compile]
@@ -262,6 +469,22 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
@@ -270,10 +493,30 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
@@ -282,20 +525,36 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test->master]
 [debug] == resolving dependencies for default#test$sources_javadoc_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#test$sources_javadoc_2.11;1.0 [provided]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.11 [test-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [test-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [test-internal->master]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->default(compile)]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->runtime]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->compile]
+[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->master]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->default(compile)]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
@@ -304,10 +563,6 @@
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test-internal->runtime]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test-internal->compile]
 [debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.11 [test-internal->master]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->default(compile)]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->runtime]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->compile]
-[debug] == resolving dependencies default#test$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#test$sources_javadoc_2.11;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -368,45 +623,90 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.9!akka-actor_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.9!akka-actor_2.11.jar(doc)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.9!akka-actor_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.11!akka-actor_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.11!akka-actor_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.11!akka-actor_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(doc)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
+[debug] 		tried /Users/roackb2/.ivy2/local/com.typesafe.akka/akka-remote_2.11/2.3.11/docs/akka-remote_2.11-javadoc.jar
+[debug] 		tried /Users/roackb2/.ivy2/local/com.typesafe.akka/akka-remote_2.11/2.3.11/srcs/akka-remote_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.3.11!akka-remote_2.11.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-javadoc.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-javadoc.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-javadoc.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-javadoc.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-javadoc.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.11;2.3.11!akka-remote_2.11.jar(doc) (3534ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.11;2.3.11!akka-remote_2.11.jar(src) (1724ms)
+[debug] 		tried /Users/roackb2/.ivy2/local/io.netty/netty/3.8.0.Final/jars/netty.jar
+[debug] 		tried /Users/roackb2/.ivy2/local/io.netty/netty/3.8.0.Final/docs/netty-javadoc.jar
+[debug] 		tried /Users/roackb2/.ivy2/local/io.netty/netty/3.8.0.Final/srcs/netty-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar
+[info] 	[SUCCESSFUL ] io.netty#netty;3.8.0.Final!netty.jar (6798ms)
+[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-javadoc.jar
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-javadoc.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-javadoc.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-javadoc.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-javadoc.jar
+[info] 	[SUCCESSFUL ] io.netty#netty;3.8.0.Final!netty.jar(doc) (8454ms)
+[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar
+[info] 	[SUCCESSFUL ] io.netty#netty;3.8.0.Final!netty.jar(src) (2233ms)
+[debug] 		tried /Users/roackb2/.ivy2/local/com.google.protobuf/protobuf-java/2.5.0/jars/protobuf-java.jar
+[debug] 		tried /Users/roackb2/.ivy2/local/com.google.protobuf/protobuf-java/2.5.0/srcs/protobuf-java-sources.jar
+[debug] 		tried /Users/roackb2/.ivy2/local/com.google.protobuf/protobuf-java/2.5.0/docs/protobuf-java-javadoc.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar (1556ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(src) (1412ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-javadoc.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-javadoc.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-javadoc.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-javadoc.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-javadoc.jar
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(doc) (2307ms)
+[debug] 		tried /Users/roackb2/.ivy2/local/org.uncommons.maths/uncommons-maths/1.2.2a/docs/uncommons-maths-javadoc.jar
+[debug] 		tried /Users/roackb2/.ivy2/local/org.uncommons.maths/uncommons-maths/1.2.2a/srcs/uncommons-maths-sources.jar
+[debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-javadoc.jar
+[info] downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-javadoc.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-javadoc.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-javadoc.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-javadoc.jar
+[info] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(doc) (1401ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar
+[info] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src) (1345ms)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(doc)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.11!akka-actor_2.11.jar
-[debug] 		tried /Users/roackb2/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.3.11/docs/akka-actor_2.11-javadoc.jar
-[debug] 		tried /Users/roackb2/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.3.11/srcs/akka-actor_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.11!akka-actor_2.11.jar(doc) (12381ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.11!akka-actor_2.11.jar(src) (3095ms)
-[debug] 		tried /Users/roackb2/.ivy2/local/com.typesafe.akka/akka-testkit_2.11/2.3.11/srcs/akka-testkit_2.11-sources.jar
-[debug] 		tried /Users/roackb2/.ivy2/local/com.typesafe.akka/akka-testkit_2.11/2.3.11/docs/akka-testkit_2.11-javadoc.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.11!akka-testkit_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.11!akka-testkit_2.11.jar(doc)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.11!akka-testkit_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.11;2.3.11!akka-testkit_2.11.jar(src) (1965ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.3.11/akka-testkit_2.11-2.3.11-javadoc.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.11;2.3.11!akka-testkit_2.11.jar(doc) (2940ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(doc)
@@ -417,7 +717,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
-[debug] :: resolution report :: resolve 289ms :: artifacts dl 20447ms
+[debug] :: resolution report :: resolve 494ms :: artifacts dl 30882ms
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 compile produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-compile.xml
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 runtime produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-runtime.xml
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 test produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-test.xml
@@ -431,4 +731,4 @@
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 docs produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-docs.xml
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 pom produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-pom.xml
 [debug] 	report for default#test$sources_javadoc_2.11;1.0 scala-tool produced in /Users/roackb2/Studio/programming/scala/test/target/resolution-cache/reports/default-test$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (289ms resolve - 20447ms download)
+[debug] 	resolve done (494ms resolve - 30882ms download)

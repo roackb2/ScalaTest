@@ -7,10 +7,10 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150519214853"/>
+		date="20150522120650"/>
 	<dependencies>
 		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
-			<revision name="1.0.4" status="release" pubdate="20150430220747" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+			<revision name="1.0.4" status="release" pubdate="20150430220747" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="2803" time="0" location="/Users/roackb2/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
 				<caller organisation="default" name="test$sources_javadoc_2.11" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
@@ -27,20 +27,92 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
-			<revision name="2.3.9" status="release" pubdate="20150120141810" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+		<module organisation="com.typesafe.akka" name="akka-remote_2.11">
+			<revision name="2.3.11" status="release" pubdate="20150508225149" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2666" time="0" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.9/akka-actor_2.11-2.3.9.pom"/>
-				<caller organisation="default" name="test$sources_javadoc_2.11" conf="compile, runtime" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="1.0"/>
+				<metadata-artifact status="no" details="" size="3826" time="0" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/ivy-2.3.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11.pom"/>
+				<caller organisation="default" name="test$sources_javadoc_2.11" conf="compile, runtime" rev="2.3.11" rev-constraint-default="2.3.11" rev-constraint-dynamic="2.3.11" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="331900" time="0" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.3.9-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.9/akka-actor_2.11-2.3.9-sources.jar"/>
+					<artifact name="akka-remote_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="145143" time="1724" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/srcs/akka-remote_2.11-2.3.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-sources.jar"/>
 					</artifact>
-					<artifact name="akka-actor_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2932447" time="0" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/docs/akka-actor_2.11-2.3.9-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.9/akka-actor_2.11-2.3.9-javadoc.jar"/>
+					<artifact name="akka-remote_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1354035" time="3534" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/docs/akka-remote_2.11-2.3.11-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11-javadoc.jar"/>
 					</artifact>
-					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2571077" time="0" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.9.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.9/akka-actor_2.11-2.3.9.jar"/>
+					<artifact name="akka-remote_2.11" type="jar" ext="jar" status="no" details="" size="1338361" time="0" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/jars/akka-remote_2.11-2.3.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.uncommons.maths" name="uncommons-maths">
+			<revision name="1.2.2a" status="release" pubdate="20110408215605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2750" time="0" location="/Users/roackb2/.ivy2/cache/org.uncommons.maths/uncommons-maths/ivy-1.2.2a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
+				<caller organisation="default" name="test$sources_javadoc_2.11" conf="compile, runtime" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="uncommons-maths" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="158263" time="1401" location="/Users/roackb2/.ivy2/cache/org.uncommons.maths/uncommons-maths/docs/uncommons-maths-1.2.2a-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-javadoc.jar"/>
+					</artifact>
+					<artifact name="uncommons-maths" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="61093" time="1345" location="/Users/roackb2/.ivy2/cache/org.uncommons.maths/uncommons-maths/srcs/uncommons-maths-1.2.2a-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar"/>
+					</artifact>
+					<artifact name="uncommons-maths" type="jar" ext="jar" status="no" details="" size="49019" time="0" location="/Users/roackb2/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.8.0.Final" status="release" pubdate="20131107172312" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6521" time="0" location="/Users/roackb2/.ivy2/cache/io.netty/netty/ivy-3.8.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom"/>
+				<caller organisation="default" name="test$sources_javadoc_2.11" conf="compile, runtime" rev="3.8.0.Final" rev-constraint-default="3.8.0.Final" rev-constraint-dynamic="3.8.0.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty" type="jar" ext="jar" status="successful" details="" size="1230201" time="6798" location="/Users/roackb2/.ivy2/cache/io.netty/netty/jars/netty-3.8.0.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar"/>
+					</artifact>
+					<artifact name="netty" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="10408143" time="8454" location="/Users/roackb2/.ivy2/cache/io.netty/netty/docs/netty-3.8.0.Final-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-javadoc.jar"/>
+					</artifact>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1079966" time="2233" location="/Users/roackb2/.ivy2/cache/io.netty/netty/srcs/netty-3.8.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20130308081811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3013" time="0" location="/Users/roackb2/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="default" name="test$sources_javadoc_2.11" conf="compile, runtime" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="successful" details="" size="533455" time="1556" location="/Users/roackb2/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="276990" time="1412" location="/Users/roackb2/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1212478" time="2307" location="/Users/roackb2/.ivy2/cache/com.google.protobuf/protobuf-java/docs/protobuf-java-2.5.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.3.11" status="release" pubdate="20150508224512" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2667" time="0" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.3.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11.pom"/>
+				<caller organisation="default" name="test$sources_javadoc_2.11" conf="compile, runtime" rev="2.3.11" rev-constraint-default="2.3.11" rev-constraint-dynamic="2.3.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2631202" time="0" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="336876" time="0" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.3.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3074483" time="0" location="/Users/roackb2/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/docs/akka-actor_2.11-2.3.11-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.11/akka-actor_2.11-2.3.11-javadoc.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
