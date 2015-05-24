@@ -17,4 +17,5 @@ object RemoteActorTest extends App {
     val remoteServer = remoteSystem.actorOf(Props[ActorTest.ServerActor], name = "remoteServer")
     val client = remoteSystem.actorSelection("akka.tcp://RemoteSystem@127.0.0.1:2552/user/remoteServer")
     client ! ActorTest.Render("hi")
+
 }

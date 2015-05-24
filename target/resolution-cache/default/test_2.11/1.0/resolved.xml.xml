@@ -4,7 +4,7 @@
 		module="test_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150522120645"
+		publication="20150524131930"
 	>
 		<description>
 		test
@@ -36,5 +36,7 @@
 		<dependency org="com.typesafe.akka" name="akka-remote_2.11" rev="2.3.11" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-testkit_2.11" rev="2.3.11" conf="test->default(compile)"/>
 		<dependency org="org.scala-lang.modules" name="scala-parser-combinators_2.11" rev="1.0.4" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze_2.11" rev="0.11.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze-natives_2.11" rev="0.11.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
